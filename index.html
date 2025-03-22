@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next Offer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background-color: #f2f2f2;
+      color: #333;
+      font-size: 20px;
+    }
+    section, footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .hero {
+      width: 100%;
+      margin: 0;
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #0a1f44;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.4em;
+      margin-bottom: 30px;
+    }
+    .cta-btn {
+      background-color: #a6e4f4;
+      color: #0a1f44;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    .section-title {
+      font-size: 2.2em;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .how-it-works .card {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .how-it-works .card img {
+      width: 48px;
+      margin-right: 20px;
+    }
+    .benefits {
+      background-color: #f2f2f2;
+      padding-top: 0;
+    }
+    .benefits-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .benefits .card {
+      flex: 1 1 250px;
+      background: linear-gradient(135deg, #e0f7fa, #ccf1f5);
+      padding: 25px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+    .benefits .card img {
+      width: 48px;
+      margin-bottom: 12px;
+    }
+    .three-cols {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+    }
+    .pricing-card {
+      background: linear-gradient(135deg, #ffffff, #f3f3f3);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      flex: 1 1 280px;
+      position: relative;
+      font-size: 1.1em;
+    }
+    .pricing-card p {
+      margin-top: 16px;
+      line-height: 1.5;
+    }
+    .pricing-card .badge {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #2196F3;
+      color: white;
+      padding: 5px 12px;
+      font-size: 0.75em;
+      transform: rotate(45deg);
+      border-radius: 4px;
+    }
+    form {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    form input::placeholder {
+      color: #aaa;
+    }
+    .checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+    .checkbox input[type="checkbox"] {
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+    }
+    .checkbox label {
+      font-size: 0.9em;
+    }
+    form .cta-btn {
+      display: block;
+      margin: 0 auto;
+    }
+    .testimonial {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 25px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+      align-items: center;
+    }
+    .testimonial img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .social-icons img {
+      width: 26px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>We’ll Find a Job for You — While You Focus on What You Love</h1>
+    <p>Let our career experts and HR professionals handle your job search.</p>
+    <button class="cta-btn">Оставить заявку</button>
+  </header>
+
+  <section class="how-it-works">
+    <h2 class="section-title">How It Works</h2>
+    <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Form">1. Fill out a short form</div>
+    <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Expert">2. Get matched with a career expert</div>
+    <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Support">3. Receive personalized support until you land the job</div>
+  </section>
+
+  <section class="benefits">
+    <h2 class="section-title">Why Next Offer?</h2>
+    <div class="benefits-container">
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/942/942748.png"><p>Save time and energy</p></div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"><p>Work with real professionals</p></div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/190/190411.png"><p>Boost your chances of landing a dream job</p></div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png"><p>Personalized help, not generic templates</p></div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png"><p>Support for different career stages</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Pricing Plans</h2>
+    <div class="three-cols">
+      <div class="pricing-card">
+        <h3>Base</h3>
+        <p>✓ Professionally written resume</p>
+      </div>
+      <div class="pricing-card">
+        <div class="badge">Most Popular</div>
+        <h3>Optimum</h3>
+        <p>✓ Resume + LinkedIn profile optimization<br>✓ Ongoing monthly support via chat</p>
+      </div>
+      <div class="pricing-card">
+        <h3>Premium</h3>
+        <p>✓ Everything in Optimum<br>+ 3 one-on-one consultations with career experts</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">What Our Users Say</h2>
+    <div class="testimonial"><img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Elena"><div><strong>Elena S.</strong><br>“Next Offer helped me land my dream marketing job in just a few weeks. I didn't expect the resume rewrite to make such a huge difference — but it did!”</div></div>
+    <div class="testimonial"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Martin"><div><strong>Martin K.</strong><br>“I struggled with LinkedIn until they optimized it for me. I started getting recruiter messages almost immediately.”</div></div>
+    <div class="testimonial"><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Amina"><div><strong>Amina R.</strong><br>“The Premium package was worth every euro. The consultations gave me clarity and confidence during my career switch.”</div></div>
+    <div class="testimonial"><img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Jean-Paul"><div><strong>Jean-Paul M.</strong><br>“What stood out was how personal everything felt. Real advice tailored to my experience and goals.”</div></div>
+    <div class="testimonial"><img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Valeria"><div><strong>Valeria D.</strong><br>“I’m a designer and usually hate writing about myself. The resume finally told my story.”</div></div>
+  </section>
+
+  <section>
+  <h2 class="section-title">Join the Waitlist</h2>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd__tZTpX3PhhwMQ7v7VUz91Bt-FXAhKXk5fKV8tG9x7WMzxg/viewform?embedded=true" width="640" height="968" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+</section>
+
+  <footer>
+    <p>📩 hello@nextoffer.com</p>
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="Telegram"></a>
+    </div>
+    <p>&copy; 2025 Next Offer. All rights reserved. | Terms | Privacy</p>
+  </footer>
+</body>
+</html>
